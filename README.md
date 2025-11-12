@@ -10,6 +10,26 @@ PowerPointファイルをページごとに分割したり結合したりするC
 
 ## インストール
 
+### 仮想環境のセットアップ
+
+プロジェクトの依存関係を分離するため、仮想環境の使用を推奨します。
+
+```bash
+# 仮想環境を作成
+python -m venv venv
+
+# 仮想環境を有効化
+# Linux/macOS の場合:
+source venv/bin/activate
+
+# Windows の場合:
+# venv\Scripts\activate
+```
+
+### 依存関係のインストール
+
+仮想環境を有効化した状態で、以下のコマンドを実行します。
+
 ```bash
 # 依存関係のインストール
 pip install -r requirements.txt
